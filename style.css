@@ -1,0 +1,129 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+/*background img*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/img_background1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/img_background2.jpg");
+  min-height: 200px;
+}
+
+.bgimg-3 {
+  background-image: url("images/img_background3.jpg");
+  min-height: 200px;
+}
+
+.caption_self {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption_self span.border_self {
+  color: #fff;
+  padding: 18px;
+  font-size: 4em;
+  letter-spacing: 10px;
+  font-family: Open Sans;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.caption_self span.boder_under_self{
+  color: #fff;
+  padding: 18px;
+  font-size: 1em;
+  letter-spacing: 10px;
+  font-family: Open Sans;
+  font-weight: 200;
+  display: block;
+}
+/*background img*/
+
+
+/*profile section*/
+.profile_self {
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 300px;
+	text-align: justify;
+}
+
+h3.self  {
+  letter-spacing: 3px;
+  font-size: 54px;
+  font-family:  Open Sans;
+  color: #22a39f;
+  text-align:center;
+  font-weight: 300;
+  margin:20px;
+  padding: 0px 300px;
+}
+
+.big_h3letter {
+	text-align: center;
+	display: block;
+	font-family: Open Sans;
+	font-size: 21px;
+	font-weight: 200;
+	color:#7278A3;
+	margin:0px;
+	padding: 0px 0px 50px 0px;
+}
+
+h4.self {
+	margin: 20px 0;
+	color: #22a39f;
+	font-family:  Open Sans;
+	font-weight: 300;
+	font-size: 28px;
+	
+}
+
+img.self {
+	border-radius: 50%;
+	border: 15px solid #F3EFE0;
+	width: 230px;
+	height: 230px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*profile section*/
+
+/*experiences section*/
+.exp_self {
+	color: #777;
+	background-color:#F3EFE0;
+	text-align:center;
+	padding:50px 300px;
+	text-align: justify;
+}
+
+
+/*experiences section*/
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
