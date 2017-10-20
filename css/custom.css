@@ -285,6 +285,18 @@ img.self {
   }
 }
 
-
-
 /*experiences section ends*/
+
+/*Skills section*/
+
+.glyphicon-star {
+	color:orange;
+}
+
+.glyphicon-star-empty {
+	color: orange;
+}
+
+.glyphicon-star:hover{
+	margin:0 5px;
+}
