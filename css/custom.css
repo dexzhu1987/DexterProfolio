@@ -76,12 +76,12 @@ hr {
 .profile_self {
 	color: #777;
 	background-color:white;
-	padding:50px 300px;
+	padding:50px 200px;
 }
 
 h3.self  {
   letter-spacing: 3px;
-  font-size: 54px;
+  font-size: 3.7em;
   font-family:  Open Sans;
   color: #22a39f;
   text-align:center;
@@ -118,18 +118,32 @@ img.self {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (min-width: 1200px) and (max-width: 1311px) {
+@media (max-width: 1311px) {
 	img.self {
 	width: 150px;
 	height: 150px;
     }
 }
 
-@media (min-width: 1200px)
-.col-md-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+@media (max-width: 800px) {
+	h3.self {
+		font-size: 2.5em;
+	}
+	
+	.big_h3letter
+	{
+		font-size: 1.2em;
+	}
+	
+	h4.self {
+		font-size: 1.9em;
+	}
+	
+	p{
+		font-size: .9em;
+	}
 }
+
 /*profile section*/
 
 /*experiences section*/
@@ -137,7 +151,7 @@ img.self {
 	color: #777;
 	background-color:#F3EFE0;
 	text-align:center;
-	padding:50px 300px;
+	padding:50px 200px;
 	text-align: justify;
 	background-color: #474e5d;
 }
