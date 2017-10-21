@@ -8,6 +8,13 @@ body, html {
 hr {
 	margin: 50px 0px;
 }
+
+.container-fluid {
+	padding-right: 0px; 
+    padding-left: 0px;
+}
+
+
 /*background img*/
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
@@ -289,14 +296,180 @@ img.self {
 
 /*Skills section*/
 
-.glyphicon-star {
-	color:orange;
+
+.no-bullets {
+	padding:0px;
+	margin: 0px;
+	list-style: none;
 }
 
-.glyphicon-star-empty {
-	color: orange;
+.hvr-icon-back {
+	padding-right: 22.2em;
+	margin: 0px;
 }
 
-.glyphicon-star:hover{
-	margin:0 5px;
+.hvr-icon-back:before {
+	content: "\f005"" ""\f005" " ""\f005"" ""\f005" " " "\f005";
+    left: 22.2em;
+	color: gold;
 }
+
+.hvr-icon-back:hover:before, .hvr-icon-back:focus:before, .hvr-icon-back:active:before {
+  background-color: aliceblue;
+	-webkit-transform: translateX(-12px);
+  transform: translateX(-12px);
+}
+
+.hvr-icon-back:hover, .hvr-icon-back:focus, .hvr-icon-back:active {
+  background-color: aliceblue;
+}
+
+
+.hvr-icon-back4 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 22.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  margin: 0px;
+}
+.hvr-icon-back4:before {
+  content: "\f005"" ""\f005" " ""\f005"" ""\f005" " " "\f006";
+  position: absolute;
+  left: 22em;
+  color:gold;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-back4:hover:before, .hvr-icon-back4:focus:before, .hvr-icon-back4:active:before {
+  -webkit-transform: translateX(-12px);
+  transform: translateX(-12px);
+background-color: aliceblue;
+}
+.hvr-icon-back4:hover, .hvr-icon-back4:focus, .hvr-icon-back4:active {
+  background-color: aliceblue;
+}
+
+.hvr-icon-back3 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 22.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  margin: 0px;
+}
+.hvr-icon-back3:before {
+  content: "\f005"" ""\f005" " ""\f005"" ""\f006" " " "\f006";
+  position: absolute;
+  left: 22em;
+  color:gold;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-back3:hover:before, .hvr-icon-back3:focus:before, .hvr-icon-back3:active:before {
+  -webkit-transform: translateX(-12px);
+  transform: translateX(-12px);
+background-color: aliceblue;
+}
+.hvr-icon-back3:hover, .hvr-icon-back3:focus, .hvr-icon-back3:active {
+  background-color: aliceblue;
+}
+
+.hvr-icon-back2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 22.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  margin: 0px;
+}
+.hvr-icon-back2:before {
+  content: "\f005"" ""\f005" " ""\f006"" ""\f006" " " "\f006";
+  position: absolute;
+  left: 22em;
+  color:gold;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-back2:hover:before, .hvr-icon-back2:focus:before, .hvr-icon-back2:active:before {
+  -webkit-transform: translateX(-12px);
+  transform: translateX(-12px);
+background-color: aliceblue;
+}
+.hvr-icon-back2:hover, .hvr-icon-back2:focus, .hvr-icon-back2:active {
+  background-color: aliceblue;
+}
+
+.hvr-icon-back1 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 22.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  margin: 0px;
+}
+.hvr-icon-back1:before {
+  content: "\f005"" ""\f006" " ""\f006"" ""\f006" " " "\f006";
+  position: absolute;
+  left: 22em;
+  color:gold;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-back1:hover:before, .hvr-icon-back1:focus:before, .hvr-icon-back1:active:before {
+  -webkit-transform: translateX(-12px);
+  transform: translateX(-12px);
+background-color: aliceblue;
+}
+.hvr-icon-back1:hover, .hvr-icon-back1:focus, .hvr-icon-back1:active {
+  background-color: aliceblue;
+}
+/*Skills section ends*/
