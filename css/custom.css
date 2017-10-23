@@ -638,4 +638,75 @@ td {
 .copy, .d3 {
     white-space: nowrap;
 }
+
+.contact_text{
+	color: #22a39f;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.contact_bigicon {
+	color: #22a39f;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+}
 /*Contact section ends*/
+
+.credit {
+	text-align: center;
+    font-size: .8em;
+    z-index: -1;
+    bottom: 0;
+    text-align: center;
+    color:#999995 ;
+    background-color: black;
+    padding: 10px;
+	opacity: 0.8;
+	position: absolute;
+	width: 100%;
+
+}
+
+#sidebar {
+    
+    position: fixed;
+    top: 50px;
+    right: 60px;
+    
+}   
+
+#sidebar ul {
+	background-color: #222222;
+		
+    list-style-type: none;
+    margin: 0px;
+    padding: 0 10px;
+    display: inline-block;
+    width: auto;
+    float: right;
+	opacity: 1;
+	z-index: 5;
+	border-radius: 6px;
+    
+}
+
+
+#sidemenu li a {
+    display: block;    
+    padding-top: 27px;
+    padding-bottom: 27px;
+	padding-right: 0px;
+	padding-left: 0px;
+    margin-right: 5px;
+    text-decoration: none;
+	color:white;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+}
+
+#sidemenu li a:hover {
+	color: #999995;
+}

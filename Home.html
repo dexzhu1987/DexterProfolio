@@ -7,15 +7,27 @@
 <link rel="stylesheet" href="css/hover.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/custom.css">
-	
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/popper.js"></script>
 <script src=js/bootstrap.js></script>
-
 </head>
 <body>
 <div class="container-fluid">
+
+ <!-- Nav Section  -->
+	
+	 <div id="sidebar">
+            <ul id="sidemenu">
+                <li><a id="Profile_side" href="#Profile">Profile</a></li>
+                <li><a id="Experiences_side" href="#Experiences">Experiences</a></li>
+                <li><a id="Abilities_side" href="#Abilities">Abilities</a></li>
+				<li><a id="Projects_side" href="#Projects">Projects</a></li>
+                <li><a id="Contact_side" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+ <!-- Nav Section  -->
+
 
 <div class="bgimg-1">
   <div class="caption_self">
@@ -25,6 +37,7 @@
 </div>
 
  <!-- Profile Section  -->
+<div id="Profile">
 <div class="profile_self">
  <h3 class="self">Profile</h3>
 	<p class="big_h3letter">I'm a web designer and app developer</p>
@@ -47,7 +60,7 @@
 	 </div>
 	</div>
 </div>
-
+</div>
  <!-- Profile Section  ends-->
  
 <div class="bgimg-2">
@@ -57,6 +70,7 @@
 </div>
 
 <!-- Experiences Section  -->
+<div id="Experiences">
   <div class="exp_self">
   <h3 class="self">Experiences</h3>
    <p class="big_h3letter">“The mind once enlightened cannot again become dark.” <br>
@@ -149,7 +163,7 @@
   </div>
 </div>
 	</div>
-
+</div>
  <!-- Experiences Section ends  -->
 	
 <div class="bgimg-4">
@@ -159,6 +173,7 @@
 </div>
 	
  <!-- Abilities Section  -->	
+	<div id="Abilities">
 	<div class="profile_self">
  <h3 class="self">Abilities</h3>
 	 <p class="big_h3letter">“Success means we go to sleep at night knowing that our talents and ablities were used in a way that served others.” <br>
@@ -186,6 +201,7 @@
 			</div>
 		</div>
 		</div>
+		</div>
  <!-- Abilities Section  ends-->
 	
 	
@@ -197,6 +213,7 @@
 	
 	
  <!-- Projects Section-->
+	<div id="Projects">
 <div class="projects_self">
    <h3 class="self">Projects</h3>
 	<p class="big_h3letter">"You may delay, but time will not." <br> ~ Benjamin Franklin</p>
@@ -249,7 +266,7 @@
 	
 	
   </div>
-
+</div>
  <!-- Projects Section ends-->
 	
 <div class="bgimg-5">
@@ -259,7 +276,7 @@
 </div>	
 	
  <!-- Contact Section  -->
-	
+	<div id="Contact">
 	<div class="exp_self">
   <h3 class="self" style=color:white>Contact</h3>
    <p class="big_h3letter">I have enjoyed every call. The ones involving direct contact with people have been most rewarding. <br>- L. Lionel Kendrick
@@ -329,24 +346,38 @@
     </tr>
 </table>
 </div>		
-		<hr class="self" style="margin: 5px">
-		
+		<hr class="self" style="margin: 40px">
+		<p class="contact_text">
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp;
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; 
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; 
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-google" aria-hidden="true"></i></a> &nbsp; 
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-github" aria-hidden="true"></i></a> &nbsp; 
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp; 
+		<a href="https://www.w3schools.com/" target="_blank" class="contact_bigicon"><i class="fa fa-envelope" aria-hidden="true"></i></a> &nbsp; 
+		</p>	
+		<p class="contact_text"> We are just one click away! </p>
 		</div>	
 		</div>
 	</div>
-	
+	</div>
  <!-- Contact Section ends-->
 	
 <div class="bgimg-1">
   <div class="caption_self">
-    <span class="border_self">COOL!</span>
+    <span class="border_self">Thank you</span>
   </div>
+<div class="credit">© 2017 102 CornerStone Final Project - Dexter Zhu Profolio </div> 
 </div>
-	
+
+<!--              Credit Starts here      -->  
+
+     
+<!--              Credit Ends here      -->  
 	
 	</div>
 	
-	
+
 <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
@@ -358,6 +389,6 @@ $(".btn-primary").click(function(){
         $("[data-toggle='tooltip']").tooltip('hide');
 });
 </script>
-	
+<script src="js/my_jquery.js"></script>		
 </body>
 </html>
