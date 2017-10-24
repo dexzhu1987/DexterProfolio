@@ -98,7 +98,6 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky_self");
   }
-  
- 	
 	
 }
+

@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", Open Sans;
   color: #777;
-  min-width: 375px;
+  min-width: 600px;
 }
 
 hr {
@@ -32,7 +32,7 @@ hr.self {
 }
 .bgimg-1 {
   background-image: url("../images/img_background1.jpg");
-  min-height: 100%;
+  min-height: 1000px;
 }
 
 .bgimg-2 {
@@ -78,7 +78,26 @@ hr.self {
 	font-size:15px;
 	font-weight: 600;
 	border-radius: 6px;
+	opacity: ;
+	z-index: 10;
+}
+
+.bg_button_top {
+	text-decoration: none;
+	text-align: center;
+	background-color: #222222;
+	position: absolute;
+	bottom: 40px;
+	right:60px;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-right: 37px;
+	padding-left: 37px;
+	font-size:15px;
+	font-weight: 600;
+	border-radius: 6px;
 	opacity: 1.0;
+	z-index: 10;
 }
 
 .animated {
@@ -306,7 +325,7 @@ img.self {
     background-color: white;
     position: relative;
     border-radius: 6px;
-	min-width:300px;
+	min-width:140px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -374,7 +393,7 @@ img.self {
 .abilities_self {
 	color: #777;
 	background-color:white;
-	padding:50px 200px;
+	padding:50px 170px;
 }
 
 .no-bullets {
@@ -720,7 +739,7 @@ td {
     width: auto;
     float: right;
 	opacity: 1;
-	z-index: 5;
+	z-index: 100;
 	border-radius: 6px;
     
 }
@@ -737,6 +756,7 @@ td {
 	font-weight: 600;
 	font-size: 15px;
 	text-align: center;
+	z-index: 100;
 }
 
 #sidemenu li a:hover {
@@ -758,5 +778,12 @@ td {
 .side_wrapper {
 	margin: 0 60px;
 }
+
+
+.side_icon {
+	display: none;
+}
+
+
 
 /*Nav section ends*/
