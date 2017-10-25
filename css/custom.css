@@ -89,7 +89,7 @@ hr.self {
 	background-color: #222222;
 	position: absolute;
 	bottom: 40px;
-	right:40px;
+	right:60px;
 	padding-top: 15px;
     padding-bottom: 15px;
 	padding-right: 37px;
@@ -499,7 +499,7 @@ img.self {
 
 @media (max-width: 400px) {
 	.abilities_self  {
-		padding: 50px 0px;
+		padding: 50px 0px 50px 2pxs;
 	}
 }
 
@@ -786,6 +786,103 @@ background-color: aliceblue;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.overlay_p {
+   font-size:15px;
+}
+
+ .top-right_overlay {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	color: white;
+	padding: 10px;
+	background-color: #22a39f;
+}
+/*Modal Image*/
+/* The Modal (background) */
+.modal_project {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+/* Modal Content (image) */
+.modal-content_project {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption_project {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content_project, #caption_project {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close_project {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close_project:hover,
+.close_project:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content_project {
+        width: 100%;
+    }
+}
+
+#overlayclick {
+	cursor: pointer;
+}
+
 /*Projects section ends*/
 
 
