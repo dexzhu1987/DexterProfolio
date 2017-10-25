@@ -89,7 +89,7 @@ hr.self {
 	background-color: #222222;
 	position: absolute;
 	bottom: 40px;
-	right:60px;
+	right:40px;
 	padding-top: 15px;
     padding-bottom: 15px;
 	padding-right: 37px;
@@ -99,6 +99,18 @@ hr.self {
 	border-radius: 6px;
 	opacity: 1.0;
 	z-index: 10;
+}
+
+@media (max-width: 500px) {
+	.bg_button {
+		width:100%;
+		right:0;
+	}
+	
+	.bg_button_top {
+		width: 100%;
+		right:0;
+	}
 }
 
 .animated {
@@ -877,6 +889,14 @@ td {
 	width: 100%;
 
 }
+
+@media (max-width:370px) {
+	.credit {
+		font-size: 0.6em;
+		padding: 12px;
+	}
+}
+
 /*Nav section*/
 #sidebar {
    
