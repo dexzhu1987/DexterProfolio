@@ -105,11 +105,15 @@ hr.self {
 	.bg_button {
 		width:100%;
 		right:0;
+		padding: 6px;
+		font-size: 12px;
 	}
 	
 	.bg_button_top {
 		width: 100%;
 		right:0;
+		padding: 6px;
+		font-size: 12px;
 	}
 }
 
@@ -244,8 +248,19 @@ img.self {
 	p{
 		font-size: .9em;
 	}
+   
+	h5{
+	font-size:1.5em;
+	}
+	
+	
+	.collapse {
+		font-size: .9em;
+	}
+		
 }
 
+  
 
 @media (max-width: 600px) {
 	h3.self {
@@ -264,6 +279,19 @@ img.self {
 	p{
 		font-size: .8em;
 	}
+	
+	h5 {
+	  font-size:  1.2em;
+	}
+   
+   	h2 {
+	font-size: 1.7em;
+				
+}
+	.collapse {
+		font-size: .8em;
+	}
+	
 }
 /*profile section*/
 
@@ -1053,8 +1081,8 @@ td {
 .mobilenav {
   z-index: 500;
   position: fixed;
-  top:0;
-  left:0;
+  top: 5px;
+  left: 5px;
   display:none;
 }
 

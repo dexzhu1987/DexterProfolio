@@ -40,6 +40,10 @@ $('a[href*="#"]')
 	
 	 });
 
+
+
+
+
 //scollspy
 var lastId,
     topMenu = $("#sidebar"),
@@ -86,6 +90,10 @@ $(window).scroll(function(){
    }                   
 });
 
+
+
+
+
 //stiky navbar
 var navbar = document.getElementById("sidebar");
 var sticky = navbar.offsetTop;
@@ -99,6 +107,9 @@ function myFunction() {
   }
 	
 }
+
+
+
 
 //modal image
 
@@ -123,3 +134,14 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
+
+
+
+
+//change button display
+
+$('.btn-success').click(function(){
+    $(this).text(function(i,old){
+        return old=='More' ?  'Hide' : 'More';
+    });
+});
