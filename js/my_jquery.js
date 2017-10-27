@@ -38,6 +38,9 @@ $('a[href*="#"]')
     }
   });
 	
+	
+	
+	
 	 });
 
 
@@ -97,6 +100,8 @@ $(window).scroll(function(){
 //stiky navbar
 var navbar = document.getElementById("sidebar");
 var sticky = navbar.offsetTop;
+var footer = document.getElementById("footer")
+
 
 function myFunction() {	
  
@@ -106,6 +111,13 @@ function myFunction() {
     navbar.classList.remove("sticky_self");
   }
 	
+  if (window.pageYOffset+330>= footer.offsetTop){
+	  navbar.style.display="none"
+  }
+	else {
+		navbar.style.display="block"
+	}
+  
 }
 
 
@@ -145,3 +157,6 @@ $('.btn-success').click(function(){
         return old=='More' ?  'Hide' : 'More';
     });
 });
+
+
+
